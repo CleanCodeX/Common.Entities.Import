@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-namespace Common.Entities.Import.Models
+namespace Common.Import.Entities.Models
 {
     public static class ImportRowStatusExtensions
     {

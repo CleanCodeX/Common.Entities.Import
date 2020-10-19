@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using Common.Entities.Import.Internal.Attributes;
+using Common.Import.Entities.Internal.Attributes;
 
-using Res = Common.Entities.Import.Properties.Resources;
+using Res = Common.Import.Entities.Properties.Resources;
 
-namespace Common.Entities.Import.Models
+namespace Common.Import.Entities.Models
 {
     public static class ImportSummaryExtensions
     {

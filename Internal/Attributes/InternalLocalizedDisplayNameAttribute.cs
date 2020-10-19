@@ -1,7 +1,7 @@
 ﻿using Common.Shared.Attributes;
-using Common.Entities.Import.Properties;
+using Common.Import.Entities.Properties;
 
-namespace Common.Entities.Import.Internal.Attributes
+namespace Common.Import.Entities.Internal.Attributes
 {
     internal sealed class InternalLocalizedDisplayNameAttribute : LocalizedDisplayNameAttribute
     {

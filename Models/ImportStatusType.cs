@@ -1,7 +1,7 @@
-﻿using Common.Entities.Import.Internal.Attributes;
-using Res = Common.Entities.Properties.Resources;
+﻿using Common.Import.Entities.Internal.Attributes;
+using Res = Common.Shared.Properties.Resources;
 
-namespace Common.Entities.Import.Models
+namespace Common.Import.Entities.Models
 {
     public enum ImportStatusType
     {

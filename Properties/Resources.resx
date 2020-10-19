@@ -147,4 +147,16 @@
   <data name="ColumnStatus" xml:space="preserve">
     <value>Column-status</value>
   </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="ErrorMandatoryFieldTemplate" xml:space="preserve">
+    <value>Requirement: Mandatory "{0}"</value>
+  </data>
 </root>

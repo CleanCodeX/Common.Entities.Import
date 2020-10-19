@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
     <Authors>CleanCodeX</Authors>
     <Company>CleanCodeX</Company>
-    <RepositoryUrl>https://github.com/CleanCodeX/Common.Entities.Import</RepositoryUrl>
+    <RepositoryUrl>https://github.com/CleanCodeX/Common.Import.Entities</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0-a1</Version>
+    <Version>1.0.0-a3</Version>
     <Description>Provides import entities</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageId>CCX.Common.Entities.Import</PackageId>
+    <PackageId>CCX.Common.Import.Entities</PackageId>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -28,7 +28,7 @@
 
   <ItemGroup>
     <PackageReference Include="CCX.Common.Shared" Version="1.0.0-a6" />
-    <PackageReference Include="CCX.Common.Entities" Version="1.0.0-b1" />
+    <PackageReference Include="CCX.Common.Entities" Version="1.0.0-c5" />
   </ItemGroup>
 
   <ItemGroup>

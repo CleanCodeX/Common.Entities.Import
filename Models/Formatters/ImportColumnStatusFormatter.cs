@@ -1,7 +1,7 @@
 ﻿using Common.Entities.Helpers;
 using Common.Shared.Extensions;
 
-namespace Common.Entities.Import.Models.Formatters
+namespace Common.Import.Entities.Models.Formatters
 {
     public class ImportColumnStatusFormatter : IObjectFormatter<ImportColumnStatus>
     {

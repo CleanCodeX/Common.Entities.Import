@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Common.Entities.Import.Properties {
+namespace Common.Import.Entities.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Common.Entities.Import.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Common.Entities.Import.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Common.Import.Entities.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -75,6 +75,33 @@ namespace Common.Entities.Import.Properties {
         public static string ColumnStatus {
             get {
                 return ResourceManager.GetString("ColumnStatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Duration ähnelt.
+        /// </summary>
+        public static string Duration {
+            get {
+                return ResourceManager.GetString("Duration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Requirement: Mandatory &quot;{0}&quot; ähnelt.
+        /// </summary>
+        public static string ErrorMandatoryFieldTemplate {
+            get {
+                return ResourceManager.GetString("ErrorMandatoryFieldTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Filename ähnelt.
+        /// </summary>
+        public static string Filename {
+            get {
+                return ResourceManager.GetString("Filename", resourceCulture);
             }
         }
         
@@ -147,6 +174,15 @@ namespace Common.Entities.Import.Properties {
         public static string Status {
             get {
                 return ResourceManager.GetString("Status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Title ähnelt.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
             }
         }
     }

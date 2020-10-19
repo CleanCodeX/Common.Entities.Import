@@ -4,9 +4,9 @@ using System.Text;
 using Common.Entities.Helpers;
 using Common.Shared.Extensions;
 using Common.Shared.Extensions.Enumerables.Specialized;
-using Res = Common.Entities.Import.Properties.Resources;
+using Res = Common.Import.Entities.Properties.Resources;
 
-namespace Common.Entities.Import.Models.Formatters
+namespace Common.Import.Entities.Models.Formatters
 {
     public class ImportRowStatusFormatter : IObjectFormatter<ImportRowStatus>
     {

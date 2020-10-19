@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30509.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Entities.Import", "Common.Entities.Import.csproj", "{AD78FBFD-7B46-481A-93AC-3D3DB208E359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Import.Entities", "Common.Import.Entities.csproj", "{AD78FBFD-7B46-481A-93AC-3D3DB208E359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

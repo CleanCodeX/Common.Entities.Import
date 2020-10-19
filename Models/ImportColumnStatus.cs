@@ -1,21 +1,25 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Common.Entities.Import.Internal.Attributes;
-using Common.Entities.Models.Bases;
+using Common.Import.Entities.Internal.Attributes;
+using Common.Entities.Models;
+using Common.Import.Entities.Properties;
+using Common.Shared.Attributes;
 using Res = Common.Entities.Properties.Resources;
+using Common.Entities.Models.Bases;
 
 // ReSharper disable NonReadonlyMemberInGetHashCode
 
-namespace Common.Entities.Import.Models
+namespace Common.Import.Entities.Models
 {
-    public class ImportColumnStatus : IHasId
+    public record ImportColumnStatus : ValueObject, IHasId<int>
     {
         [InternalLocalizedDisplayName(nameof(Res.Id))]
         [InverseProperty(nameof(ImportRowStatus.Columns))]
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+        [DoNotCompare]
         [ForeignKey(nameof(Row) + nameof(ImportRowStatus.Id))]
         public virtual ImportRowStatus? Row { get; set; }
 
@@ -29,7 +33,7 @@ namespace Common.Entities.Import.Models
         [InternalLocalizedDisplayName(nameof(Res.Value))]
         public string? Value { get; set; }
 
-        [InternalLocalizedDisplayName(nameof(Res.ColumnStatus))]
+        [InternalLocalizedDisplayName(nameof(Resources.ColumnStatus))]
         public ImportStatusType ColumnStatus { get; set; }
 
         public ImportColumnStatus() { }
@@ -40,5 +44,7 @@ namespace Common.Entities.Import.Models
         }
 
         public override int GetHashCode() => HashCode.Combine(Id);
+
+        public virtual bool Equals(ImportColumnStatus other) => base.Equals(other);
     }
 }

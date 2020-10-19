@@ -1,4 +1,4 @@
-﻿namespace Common.Entities.Import
+﻿namespace Common.Import.Entities
 {
     internal static class Const
     {
@@ -8,7 +8,7 @@
 
             public static class StringLength
             {
-                public const int Username = 64;
+                public const int UserId = 64;
                 public const int Context = 64;
             }
         }
