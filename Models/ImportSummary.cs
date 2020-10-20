@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 using Common.Import.Entities.Internal.Attributes;
-using Common.Entities.Models.Bases.I32;
+using Common.Entities.I32.Bases;
 using Common.Import.Entities.Properties;
 using Common.Shared.Attributes;
 using Toolbelt.ComponentModel.DataAnnotations.Schema.V5;
